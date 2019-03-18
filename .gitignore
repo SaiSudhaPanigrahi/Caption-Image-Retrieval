@@ -1,4 +1,16 @@
+# OS
+**/.DS_Store
+
+# Python
 *.pyc
+**/.ipynb_checkpoints
+
+# Dataset
 GoogleNews-vectors-negative300.bin.gz
 data/*
+
+# Misc
+Report/*
+Reference\ Papers/*
+archive/*
 

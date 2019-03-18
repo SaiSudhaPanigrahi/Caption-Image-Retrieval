@@ -13,4 +13,3 @@ def parse_descriptions(data_dir, num_doc):
         with open(path) as f:
             docs.append(f.read())
     return docs
-
