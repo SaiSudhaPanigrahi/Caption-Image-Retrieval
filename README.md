@@ -14,6 +14,14 @@ For more information please refer to `caption_image_retrieval.pdf`
 
 ---
 
+## Dataset
+Please download the dataset from
+[word2vec pre-trained Google News corpus word vector model](https://github.com/mmihaltz/word2vec-GoogleNews-vectors)
+
+
+
+---
+
 ## Running: Best Model
 We have tuned the best model parameters and task feature extraction in the `kNN_regression.py` file
 Please simply run
@@ -21,6 +29,8 @@ Please simply run
 python ./kNN_regression.py
 ```
 The results will be stored in `./pred_regression.csv`
+
+---
 
 ## Other Models
 `nearest_neighbor_search.py`
